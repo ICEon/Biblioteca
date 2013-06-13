@@ -1,6 +1,8 @@
 // JavaScript Document
 function login(U,P){
 	datos = "usuario="+U+"&passwrod="+P;
+	alert (U);
+	alert (P);
 	$.ajax({
 		type: "POST",
 		url: "192.168.1.11/Biblioteca_/Log_in_m.php",
