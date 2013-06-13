@@ -1,6 +1,6 @@
 // JavaScript Document
 function login(U,P){
-	datos = "usuario="+U+"&passwrod="+P;
+	datos = "usuario="+U+"&password="+P;
 	alert (U);
 	alert (P);
 	$.ajax({
