@@ -5,7 +5,7 @@ function login(U,P){
 	alert (P);
 	$.ajax({
 		type: "POST",
-		url: "192.168.1.11/Biblioteca_/Log_in_m.php",
+		url: "http://192.168.1.11/Biblioteca_/Log_in_m.php",
 		data: datos
 	}).done(function(msg) {
 		alert (msg);
