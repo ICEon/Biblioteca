@@ -23,7 +23,7 @@ $(document).ready(function(e) {
     document.addEventListener("deviceready", function(){
 			$('.Send').tap(function(){
 		var formulario = $(this).parents('form');
-
+alert (formulario.attr('name'));
 	switch(formulario.attr('name'))
 	{
 		
