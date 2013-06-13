@@ -3,7 +3,7 @@ function login(U,P){
 	datos = "usuario="+U+"&passwrod="+P;
 	$.ajax({
 		type: "POST",
-		url: "192.168.1.69/Biblioteca_/Log_in_m.php",
+		url: "192.168.1.11/Biblioteca_/Log_in_m.php",
 		data: datos
 	}).done(function(msg) {
 		alert (msg);
@@ -28,10 +28,10 @@ alert (formulario.attr('name'));
 	{
 		
 			case 'log':
-var bla = document.getElementById('Usuario').value 
-alert (bla);
-			var usuario = $('input[Usuario]').val();
-			var password = formulario.children('input:eq(1)').val();
+var usuario = document.getElementById('Usuario').value;
+var password = document.getElementById('Password').value;
+		//	var usuario = $('input[Usuario]').val();
+		//	var password = formulario.children('input:eq(1)').val();
 							alert (usuario);
 			alert (password);
 				login(usuario,password);
