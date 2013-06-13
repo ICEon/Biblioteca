@@ -31,6 +31,8 @@ $(document).ready(function(e) {
 
 			var usuario = formulario.children('input:eq(0)').val();
 			var password = formulario.children('input:eq(1)').val();
+							alert (usuario);
+			alert (password);
 				login(usuario,password);
 	
 				break;	
