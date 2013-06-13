@@ -28,9 +28,9 @@ alert (formulario.attr('name'));
 	{
 		
 			case 'log':
-var bla = document.getElementById('usuario').value 
+var bla = document.getElementById('Usuario').value 
 alert (bla);
-			var usuario = formulario.children('input:eq(0)').val();
+			var usuario = $('input[Usuario]').val();
 			var password = formulario.children('input:eq(1)').val();
 							alert (usuario);
 			alert (password);
