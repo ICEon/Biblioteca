@@ -43,8 +43,45 @@
             <input name="Password" id="Password" placeholder="Password" value="" type="password">
         </div>
         <input id="Entrar" type="submit" data-icon="check" data-iconpos="right"
-        value="Entrar" class="Send">
+        value="Entrar" class="Enviar">
       </form>
+    </div>
+    <a href="#Busqueda"> Click </a>
+</div>
+
+<!-- Busqueda -->
+<div data-role="page" id="Busqueda">
+    <div data-theme="a" data-role="header">
+        <h3>
+            Consulta de Libros
+        </h3>
+    </div>
+    <div data-role="content">
+        <div data-role="fieldcontain">
+            <input name="BTitulo" id="BTitulo" placeholder="Titulo" value="" type="search">
+        </div>
+        <ul data-role="listview" data-divider-theme="a" data-inset="true">
+            <li data-role="list-divider" role="heading">
+                Titulo
+            </li>
+            <li data-theme="c">
+                <a href="#page1" data-transition="slide">
+                    Titulo1<br>
+                    Francisco Jose Couto Pelaez
+                    <span class="ui-li-count">
+                        No aviable
+                    </span>
+                </a>
+            </li>
+            <li data-theme="c">
+                <a href="#page1" data-transition="slide">
+                    Titulo2
+                    <span class="ui-li-count">
+                        Aviable
+                    </span>
+                </a>
+            </li>
+        </ul>
     </div>
 </div>
 
